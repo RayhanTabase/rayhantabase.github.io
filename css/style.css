@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #de6449;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 100;
+  letter-spacing: 0ch;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#main-content {
+  width: 100%;
+  height: 100vh;
+}
+
+#main-content #contact {
+  text-align: center;
+}
+
+#main-content #profile_image {
+  height: 25%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: .5em;
+  -webkit-animation-name: animate-image;
+          animation-name: animate-image;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  top: 0;
+}
+
+@-webkit-keyframes animate-image {
+  from {
+    top: -30%;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animate-image {
+  from {
+    top: -30%;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+#main-content #profile_image img {
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+  border: 2px solid black;
+  border-radius: 40%;
+}
+
+#main-content .center-content {
+  height: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-content .center-content .center-content-home {
+  margin-bottom: 2em;
+  min-width: 370px;
+}
+
+#main-content .center-content .center-content-home #self_description {
+  text-align: center;
+  -webkit-animation-name: animate-details;
+          animation-name: animate-details;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  top: 0;
+  position: relative;
+}
+
+@-webkit-keyframes animate-details {
+  from {
+    top: 40%;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animate-details {
+  from {
+    top: 40%;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+#main-content .center-content .center-content-home #links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#main-content .center-content .center-content-home #links button {
+  width: 40%;
+  min-width: 40%;
+  max-width: 40%;
+  height: 50px;
+  min-height: 50px;
+  max-height: 500px;
+  margin-top: .4em;
+  border: 2px solid black;
+  font-size: larger;
+  font-weight: 600;
+}
+
+#main-content .center-content .center-content-home #links button:hover {
+  color: #de6449;
+  background: black;
+}
+
+@media only screen and (min-width: 600px) {
+  #main-content .center-content .center-content-home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #main-content .center-content .center-content-home #self_description {
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    text-align: justify;
+  }
+  #main-content .center-content .center-content-home #links {
+    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #main-content .center-content .center-content-home #links button {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,10 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head></head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:400,700&display=swap" > 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
 
-    <body>
-        <h1>Hello World</h1>
-    </body>
 
 
+    <script type="text/babel" src="./js/about_me.js"></script>
+    <script type="text/babel" src="./js/home.js"></script>
+    <script type="text/babel" src="./js/portfolio.js"></script>
+    <script type="text/babel" src="./js/skills.js"></script>
+
+    <script type="text/babel" src="./js/controller.js"></script>
+
+</head>
+<body>
+    <div id="main-content">
+        <div id="profile_image">
+            <img src="./images/image.JPG" alt="profile_image">
+        </div>
+        <div class="center-content">
+            <div class="center-content-home">
+                <div id="self_description">
+                    <div id="name">
+                        <h1>Salim</h1>
+                        <h1> Abdulai</h1>
+                    </div>
+                    
+                    <div id="title">
+                        <p>Full-Stack Developer</p>
+                    </div>
+                </div>
+
+                <div id="links" class="container">
+                            <button href="" id="about_me" class="btn btn-primary-outline ">About me</button>
+                            <button href="" id="skills" class="btn btn-primary-outline ">Skills</button>
+                            <button href="" id="portfolio" class="btn btn-primary-outline">Portfolio</button>
+                            <button href="" id="show-conatcts-btn" class="btn btn-primary-outline ">Contact</button>
+                </div>
+            </div>
+                
+            <!-- <div id="conatct" style="display:none;"> -->
+            <div id="contact">
+                <h3> salimabdulai2@yahoo.com</h3>
+                <h3> (+233 - 273 - 125456)</h3> 
+            </div>
+        </div>
+    </div>
+</body>
 </html>

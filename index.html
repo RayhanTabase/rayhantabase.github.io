@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:400,700&display=swap" > 
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -16,18 +18,20 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
 
+    <script src="./js/page.js"></script>
 
 
-    <script type="text/babel" src="./js/about_me.js"></script>
+
+    <!-- <script type="text/babel" src="./js/about_me.js"></script>
     <script type="text/babel" src="./js/home.js"></script>
     <script type="text/babel" src="./js/portfolio.js"></script>
     <script type="text/babel" src="./js/skills.js"></script>
 
-    <script type="text/babel" src="./js/controller.js"></script>
+    <script type="text/babel" src="./js/controller.js"></script> -->
 
 </head>
 <body>
-    <div id="main-content">
+    <section id="home-content" class="main-content" style="display: block;">
         <div id="profile_image">
             <img src="./images/image.JPG" alt="profile_image">
         </div>
@@ -45,19 +49,128 @@
                 </div>
 
                 <div id="links" class="container">
-                            <button href="" id="about_me" class="btn btn-primary-outline ">About me</button>
-                            <button href="" id="skills" class="btn btn-primary-outline ">Skills</button>
-                            <button href="" id="portfolio" class="btn btn-primary-outline">Portfolio</button>
-                            <button href="" id="show-conatcts-btn" class="btn btn-primary-outline ">Contact</button>
+                    <button name="about_me" class="btn btn-primary-outline link-btn" style="--i:0;">About me</button>
+                    <button name="skills" class="btn btn-primary-outline link-btn" style="--i:1;" >Skills</button>
+                    <button name="portfolio" class="btn btn-primary-outline link-btn" style="--i:2;">Portfolio</button>
+                    <button onclick="showContact()" class="btn btn-primary-outline" style="--i:3;">Contact</button>
                 </div>
             </div>
                 
-            <!-- <div id="conatct" style="display:none;"> -->
-            <div id="contact">
+            <div id="conatct" style="opacity:0;">
                 <h3> salimabdulai2@yahoo.com</h3>
-                <h3> (+233 - 273 - 125456)</h3> 
+                <h3> (+233) - 27 - 3125456</h3> 
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="about-content" class="main-content" style="display:none;">
+
+        <div class="center-content">
+            <h1>About me</h1>
+            <button name="home" class="btn btn-primary-outline link-btn"> Home</button>
+            <ul>
+                <li>Self taught full stack developer</li>
+                <li>LSci-fi</li>
+                <li>Basketball</li>
+                <li>Love of diversity and culture such as in  Japanese, Greek, etc</li>
+                <li>English, Twi, Kasem</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="skills-content" class="main-content" style="display: none;">
+        <div class="center-content">
+            <h1>Skills</h1>
+            <button name="home" class="btn btn-primary-outline link-btn"> Home</button>
+
+            <div class="centro pantaskills" style="display: flex;">
+                <div id="skills">
+                    <p>Skills</p>
+                    <div class="homes animated fadeInLeft">Home</div>
+                    <div>Click on the icons to show the info</div>
+                    <div class="allbox">
+                        <div class="skbox">
+                            <div class="skicon"><i class="devicon-html5-plain"></i></div>
+                            <div class="skdata" style="display: flex;">HTML5
+                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="skbox">
+                            <div class="skicon"><i class="devicon-css3-plain"></i></div>
+                            <div class="skdata" style="display: flex;">CSS3
+                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="skbox">
+                            <div class="skicon"><i class="devicon-git-plain"></i></div>
+                            <div class="skdata" style="display: flex;">GIT
+                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                       
+                        <div class="skbox">
+                            <div class="skicon"><i class="devicon-javascript-plain"></i></div>
+                            <div class="skdata" style="display: flex;">JavaScript
+                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="skbox">
+                            <div class="skicon"><i class="devicon-jquery-plain"></i></div>
+                            <div class="skdata" style="display: flex;">Java
+                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="skbox">
+                            <div class="skicon"><i class="devicon-react-original"></i></div>
+                            <div class="skdata" style="display: flex;">React
+                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="skbox">
+                            <div class="skicon"><i class="devicon-sass-original"></i></div>
+                            <div class="skdata" style="display: flex;">Sass
+                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="skbox">
+                            <div class="skicon"><i class="devicon-bootstrap-plain"></i></div>
+                            <div class="skdata" style="display: flex;">Bootstrap
+                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="skbox">
+                            <div class="skicon"><i class="devicon-python-plain"></i></div>
+                            <div class="skdata" style="display: flex;">Python
+                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="skbox">
+                            <div class="skicon"><i class="devicon-c-plain"></i></div>
+                            <div class="skdata" style="display: flex;">C
+                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio-content" class="main-content" style="display: none;">
+        <div class="center-content">
+            <h1>Portfolio</h1>
+            <button name="home" class="btn btn-primary-outline link-btn"> Home</button>
+
+            <ul>
+                <li class="portfolio-item">Polling box  python django react javascript scss: <a href="https://pollingbox.herokuapp.com" target="_blank">Voters app</a> </li>
+                <li class="portfolio-item">weather app react scss javascript html: <a href="https://rayhantabase.github.io/weather-app/" target="_blank">Weather app</a> </li>
+                <li class="portfolio-item">wiki search react scss javascript html : <a href="https://rayhantabase.github.io/wiki-API-search/" target="_blank">Wiki search</a> </li>
+                <li class="portfolio-item">image search: <a href="https://pexel-api-image-fetch.vercel.app" target="_blank">Image search</a> </li>
+                <li class="portfolio-item">android game c# unity android : <a href="https://play.google.com/store/apps/details?id=com.Bandasoa.Covno&hl=en&gl=US" target="_blank">mobile game  </a></li>
+            </ul>
+        </div>
+    </section>
 </body>
 </html>

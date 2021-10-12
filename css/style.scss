@@ -34,9 +34,11 @@ img{
 
 // ###################
 
-#main-content{
+#home-content{
     width: 100%;
     height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
 
     #contact{
         text-align: center;
@@ -111,8 +113,7 @@ img{
                 padding: 0;
                 flex-wrap: wrap;
                 justify-content: space-around;
-                // animation-name: ;
-
+                
                 button{
                     width: 40%;
                     min-width: 40%;
@@ -124,13 +125,47 @@ img{
                     border: 2px solid black;
                     font-size: larger;
                     font-weight: 600;
-    
+                    position: relative;
+                    opacity: 1;
+                    animation-name: animate-links;
+                    // animation-delay: calc(-1s* var(--i));
+                    animation-duration: 2s;
+
                     &:hover{
                         color: rgb(222, 100, 73) ;
                         background: black;
                     }
                 }
+
+                button:nth-child(1){
+                    animation-duration: 1.5s;
+
+                }
+                button:nth-child(2){
+                    animation-duration: 2s;
+
+                }
+                button:nth-child(3){
+                    animation-duration: 2.5s;
+
+                }
+                button:nth-child(4){
+                    animation-duration: 3s;
+
+                }
+
+                @keyframes animate-links {
+                    from{
+                        right: -15em;
+                        opacity: 0;
+                    }
+                    to{
+                        right: 0;
+                        opacity: 1;
+                    }
+                }
             }
+
         }
 
         @media only screen and (min-width: 600px) {
@@ -159,5 +194,17 @@ img{
                 }
             }
         }
+    }
+}
+
+#portfolio-content{
+    ul li{
+        list-style: none;
+    }
+
+
+    .portfolio-item{
+        border: 2px solid black;
+        height: 20em;
     }
 }

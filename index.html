@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Salim Abdulai | Software dev | Full-stack | Web dev </title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:400,700&display=swap" > 
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
@@ -19,19 +19,9 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <script src="./js/page.js"></script>
-
-
-
-    <!-- <script type="text/babel" src="./js/about_me.js"></script>
-    <script type="text/babel" src="./js/home.js"></script>
-    <script type="text/babel" src="./js/portfolio.js"></script>
-    <script type="text/babel" src="./js/skills.js"></script>
-
-    <script type="text/babel" src="./js/controller.js"></script> -->
-
 </head>
 <body>
-    <section id="home-content" class="main-content" style="display: block;">
+    <section id="home-content" class="main-content" style="display: none;">
         <div id="profile_image">
             <img src="./images/image.JPG" alt="profile_image">
         </div>
@@ -49,10 +39,10 @@
                 </div>
 
                 <div id="links" class="container">
-                    <button name="about_me" class="btn btn-primary-outline link-btn" style="--i:0;">About me</button>
-                    <button name="skills" class="btn btn-primary-outline link-btn" style="--i:1;" >Skills</button>
-                    <button name="portfolio" class="btn btn-primary-outline link-btn" style="--i:2;">Portfolio</button>
-                    <button onclick="showContact()" class="btn btn-primary-outline" style="--i:3;">Contact</button>
+                    <button name="about_me" class="btn btn-primary-outline link-btn">About me</button>
+                    <button name="skills" class="btn btn-primary-outline link-btn" >Skills</button>
+                    <button name="portfolio" class="btn btn-primary-outline link-btn" >Portfolio</button>
+                    <button onclick="showContact()" class="btn btn-primary-outline" >Contact</button>
                 </div>
             </div>
                 
@@ -67,13 +57,22 @@
 
         <div class="center-content">
             <h1>About me</h1>
-            <button name="home" class="btn btn-primary-outline link-btn"> Home</button>
+            <div id="about-nav-links">
+                <button name="home" class="btn btn-primary-outline link-btn"> Home</button>
+                <a href="https://github.com/RayhanTabase" class="icon-link" target="_blank">
+                    <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/salim-abdulai-5430065b" class="icon-link" target="_blank">
+                    <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                </a>
+            </div>
             <ul>
+                <li>Degree in Finance</li>
                 <li>Self taught full stack developer</li>
-                <li>LSci-fi</li>
                 <li>Basketball</li>
-                <li>Love of diversity and culture such as in  Japanese, Greek, etc</li>
-                <li>English, Twi, Kasem</li>
+                <li>Sci-fi</li>
+                <li>Diversity</li>
+                <li>English fluent</li>
             </ul>
         </div>
 
@@ -83,92 +82,150 @@
         <div class="center-content">
             <h1>Skills</h1>
             <button name="home" class="btn btn-primary-outline link-btn"> Home</button>
-
-            <div class="centro pantaskills" style="display: flex;">
-                <div id="skills">
-                    <p>Skills</p>
-                    <div class="homes animated fadeInLeft">Home</div>
-                    <div>Click on the icons to show the info</div>
-                    <div class="allbox">
-                        <div class="skbox">
-                            <div class="skicon"><i class="devicon-html5-plain"></i></div>
-                            <div class="skdata" style="display: flex;">HTML5
-                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
-                            </div>
+          
+            <div class="allSkills">
+                <div class="skill_box">
+                    <div class="skill-content">
+                        <div class="skill_icon"><i class="devicon-python-plain"></i></div>
+                        <div class="skill_info" style="display: flex;">Python
+                            <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
                         </div>
-                        <div class="skbox">
-                            <div class="skicon"><i class="devicon-css3-plain"></i></div>
-                            <div class="skdata" style="display: flex;">CSS3
-                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
-                            </div>
-                        </div>
-                        <div class="skbox">
-                            <div class="skicon"><i class="devicon-git-plain"></i></div>
-                            <div class="skdata" style="display: flex;">GIT
-                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
-                            </div>
-                        </div>
-                       
-                        <div class="skbox">
-                            <div class="skicon"><i class="devicon-javascript-plain"></i></div>
-                            <div class="skdata" style="display: flex;">JavaScript
-                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
-                            </div>
-                        </div>
-                        <div class="skbox">
-                            <div class="skicon"><i class="devicon-jquery-plain"></i></div>
-                            <div class="skdata" style="display: flex;">Java
-                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
-                            </div>
-                        </div>
-                        <div class="skbox">
-                            <div class="skicon"><i class="devicon-react-original"></i></div>
-                            <div class="skdata" style="display: flex;">React
-                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
-                            </div>
-                        </div>
-                        <div class="skbox">
-                            <div class="skicon"><i class="devicon-sass-original"></i></div>
-                            <div class="skdata" style="display: flex;">Sass
-                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
-                            </div>
-                        </div>
-                        <div class="skbox">
-                            <div class="skicon"><i class="devicon-bootstrap-plain"></i></div>
-                            <div class="skdata" style="display: flex;">Bootstrap
-                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
-                            </div>
-                        </div>
-                        <div class="skbox">
-                            <div class="skicon"><i class="devicon-python-plain"></i></div>
-                            <div class="skdata" style="display: flex;">Python
-                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
-                            </div>
-                        </div>
-                        <div class="skbox">
-                            <div class="skicon"><i class="devicon-c-plain"></i></div>
-                            <div class="skdata" style="display: flex;">C
-                                <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
-                            </div>
-                        </div>
-                        
                     </div>
                 </div>
+
+                <div class="skill_box">
+                    <div class="skill-content">
+                        <div class="skill_icon"><i class="devicon-django-plain"></i></div>
+                        <div class="skill_info" style="display: flex;">Django
+                            <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill_box">
+                    <div class="skill_icon"><i class="devicon-javascript-plain"></i></div>
+                    <div class="skill_info" style="display: flex;">JavaScript
+                        <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+
+                <div class="skill_box">
+                    <div class="skill-content">
+                        <div class="skill_icon"><i class="devicon-react-original"></i></div>
+                        <div class="skill_info" style="display: flex;">React
+                            <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill_box">
+                    <div class="skill-content">
+                        <div class="skill_icon"><i class="devicon-html5-plain"></i></div>
+                        <div class="skill_info" style="display: flex;">HTML5
+                            <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill_box">
+                    <div class="skill-content">
+                        <div class="skill_icon"><i class="devicon-css3-plain"></i></div>
+                        <div class="skill_info" style="display: flex;">CSS3
+                            <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill_box">
+                    <div class="skill-content">
+                        <div class="skill_icon"><i class="devicon-git-plain"></i></div>
+                        <div class="skill_info" style="display: flex;">GIT
+                            <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill_box">
+                    <div class="skill-content">
+                        <div class="skill_icon"><i class="devicon-java-plain"></i></div>
+                        <div class="skill_info" style="display: flex;">Java
+                            <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill_box">
+                    <div class="skill-content">
+                        <div class="skill_icon"><i class="devicon-sass-original"></i></div>
+                        <div class="skill_info" style="display: flex;">Sass
+                            <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill_box">
+                    <div class="skill-content">
+                        <div class="skill_icon"><i class="devicon-bootstrap-plain"></i></div>
+                        <div class="skill_info" style="display: flex;">Bootstrap
+                            <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill_box">
+                    <div class="skill-content">
+                        <div class="skill_icon"><i class="devicon-c-plain"></i></div>
+                        <div class="skill_info" style="display: flex;">C
+                            <div><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
 
-    <section id="portfolio-content" class="main-content" style="display: none;">
+    <section id="portfolio-content" class="main-content" style="display: block;">
         <div class="center-content">
             <h1>Portfolio</h1>
             <button name="home" class="btn btn-primary-outline link-btn"> Home</button>
 
             <ul>
-                <li class="portfolio-item">Polling box  python django react javascript scss: <a href="https://pollingbox.herokuapp.com" target="_blank">Voters app</a> </li>
-                <li class="portfolio-item">weather app react scss javascript html: <a href="https://rayhantabase.github.io/weather-app/" target="_blank">Weather app</a> </li>
-                <li class="portfolio-item">wiki search react scss javascript html : <a href="https://rayhantabase.github.io/wiki-API-search/" target="_blank">Wiki search</a> </li>
-                <li class="portfolio-item">image search: <a href="https://pexel-api-image-fetch.vercel.app" target="_blank">Image search</a> </li>
-                <li class="portfolio-item">android game c# unity android : <a href="https://play.google.com/store/apps/details?id=com.Bandasoa.Covno&hl=en&gl=US" target="_blank">mobile game  </a></li>
+                <li class="portfolio-item">
+                    <a class="portfolio_link" href="https://rayhantabase.github.io/weather-app/" target="_blank">
+                        <h3 class="title">Weather app</h3>
+                        <p class="description">Check current local weather</p>
+                        <p class="stack" >html, react, javascript, scss</p>
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a class="portfolio_link" href="https://pollingbox.herokuapp.com" target="_blank">
+                        <h3 class="title">Polling box</h3>
+                        <p class="description">Create an election</p>
+                        <p class="stack" >react, javascript, scss</p>
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a class="portfolio_link" href="https://rayhantabase.github.io/wiki-API-search/" target="_blank">
+                        <h3 class="title">Wiki search</h3>
+                        <p class="description">search wikipedia</p>
+                        <p class="stack" >html, react, javascript, scss</p>
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a class="portfolio_link" href="https://pexel-api-image-fetch.vercel.app" target="_blank">
+                        <h3 class="title" >Image search </h3>
+                        <p class="description">search images from pexel</p>
+                        <p class="stack">html, javascript, css</p>
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a class="portfolio_link" href="https://play.google.com/store/apps/details?id=com.Bandasoa.Covno&hl=en&gl=US" target="_blank">
+                        <h3 class="title">Android game  : </h3>
+                        <p class="description">an android mobile game</p>
+                        <p class="stack">c#, unity, android</p>
+                    </a>
+                </li>
             </ul>
         </div>
     </section>

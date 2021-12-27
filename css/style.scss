@@ -33,6 +33,12 @@ img{
     object-fit: cover;
 }
 
+ul{
+    li{
+        list-style:none;
+    }
+}
+
 
 // ###################
 
@@ -281,6 +287,10 @@ img{
         margin-bottom: 2em;
     }
 
+    button:hover {
+        opacity: 0.7;
+    }
+
     .allSkills{
         margin-top: 2em;
         width: 80%;
@@ -329,7 +339,6 @@ img{
     color: #62BCC4;
     a{
         text-decoration: none;
-        color: #62BCC4;
     }
     .center-content{
         padding-top: 4em;
@@ -345,33 +354,71 @@ img{
         color: #62BCC4;
         margin-bottom: 2em;
     }
-    ul li{
-        list-style: none;
+
+    button:hover {
+        opacity: 0.7;
     }
-    .stack{
-        color: #62BCC4;
-        opacity: 0;
-        font-style: italic;
-        font-size: 1.4rem;
-    }
+    
     .portfolio-item{
-        h3,p{
-            color:#087F8C;
-        }
+        width: 33em;
+        max-width: 33em;
         display: flex;
         flex-direction: column;
         border: 2px solid black;
         background: #62BCC4;
         margin-bottom: 2em;
-        min-height: 100px;
-        height: 200px;
-        text-align: center;
         padding: .5em;
+        color: #0f393d;
 
-        &:hover{
-            .stack{
-                opacity: .9;
+        h3 {
+            text-align: center;
+            margin-top: 1em;
+            margin-bottom: 1.3em;
+        }
+
+        p {
+            margin-bottom: 1,5em;
+            font-size: 1.5rem;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+
+        .image {
+            width: 100%;
+            overflow: hidden;
+            background: yellow;
+            border: 2px solid black;
+            border-radius: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2em;
+        }
+
+        .stack {
+            font-size: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 1em;
+            margin-bottom: 2em;
+            justify-content: center;
+            font-style: italic;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+
+        .portfolio_link {
+            background: #62BCC4;
+            margin-bottom: 1em;
+            max-width: fit-content;
+            padding: 1em;
+            color: #0f393d;
+            border: 2px solid black;
+
+            &:hover {
+                opacity: 0.7;
             }
+
         }
     }
 }

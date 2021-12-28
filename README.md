@@ -7,6 +7,9 @@
 
 - HTML,CSS, JavaScript
 
+## Live Version
+[Portfolio](https://rayhantabase.github.io)
+
 ## Authors
 
 👤 **Salim Abdulai**

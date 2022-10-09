@@ -1,13 +1,11 @@
 import React from 'react';
+import Introduction from './Components/Introduction/Introduction';
 
 const App =() => {
   return (
-    <div className="App">
-      <h1 className="">
-        Hello world!
-      </h1>
-      
-    </div>
+    <main>
+      <Introduction />
+    </main>
   );
 }
 

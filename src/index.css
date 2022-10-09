@@ -1,3 +1,52 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 4em;
+}
+
+.p-med {
+  font-size: 0.83rem;
+  font-weight: bold;
+}
+
+button {
+  background: none;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 0.7em;
+  border: 1px solid;
+}
+
+.btn-style-1 {
+  color: #4db5ff;
+}
+
+.btn-style-2 {
+  background: #4db5ff;
+}
+
+.text1 {
+  color: #4db5ff ;
+}
+
+.text2 {
+  color: #fff;
+}
+
+.text3 {
+  color: black;
+}
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+  background: yellow;
+}
+
+.container-row {
+  display: flex;
+}

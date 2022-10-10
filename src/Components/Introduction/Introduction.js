@@ -4,15 +4,13 @@ import Greeting from './Greeting.js';
 import Name from './Name.js';
 import Position from './Position';
 import ActionBtn from './ActionBtn';
+import SocialMedia from './SocialMedia';
+
 
 const Introduction =() => {
   return (
     <div className='container-intro'>
-      <div className='social-media-container'>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-      </div>
+      <SocialMedia />
       <div className='container-intro-sections'>
         <Greeting />
         <Name />

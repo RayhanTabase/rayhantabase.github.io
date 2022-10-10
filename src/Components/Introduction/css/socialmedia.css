@@ -1,0 +1,28 @@
+.social-media-container {
+  margin-top: 2.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  background: yellow;
+}
+
+.social-media-container:after {
+  background: #4db5ff;
+  content: "";
+  height: 2rem;
+  width: 1px;
+}
+
+.icon-color1 {
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+@media only screen and (max-width: 720px) {
+  .social-media-container {
+    order: 2;
+    flex-direction: row;
+    margin-top: 0;
+    justify-content: center;
+  }
+}

@@ -17,11 +17,6 @@ const Introduction =() => {
         <Position />
         <ActionBtn />
       </div>
-      <div className='social-media-container'>
-        <p>b</p>
-        <p>b</p>
-        <p>b</p>
-      </div>
     </div>
   );
 }

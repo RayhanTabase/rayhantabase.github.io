@@ -2,7 +2,7 @@ import React from 'react';
 
 const Image =() => {
   return (
-    <div className=''>
+    <div className='my-image'>
     </div>
   );
 }

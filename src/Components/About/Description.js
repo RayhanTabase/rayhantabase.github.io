@@ -2,7 +2,7 @@ import React from 'react';
 
 const Description =() => {
   return (
-    <div className=''>
+    <div className='self-description'>
     </div>
   );
 }

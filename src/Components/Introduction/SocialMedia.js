@@ -9,13 +9,13 @@ const SocialMedia =() => {
   const SOCIAL_MEDIA = [
     {name: 'Github', icon: GithubIcon, url: 'https://github.com/RayhanTabase'},
     {name: 'LinkedIn', icon: LinkedInIcon, url: 'https://www.linkedin.com/in/salimabdulai'},
-    {name: 'Github', icon: GithubIcon, url: 'https://github.com/RayhanTabase'},
+    {name: 'Github2', icon: GithubIcon, url: 'https://github.com/RayhanTabase'},
   ]
   return (
     <div className='social-media-container'>
       {
         SOCIAL_MEDIA.map((medium) => (
-          <Social name={medium.name} icon={medium.icon} url={medium.url} />
+          <Social key={medium.name} name={medium.name} icon={medium.icon} url={medium.url} />
         ))
       }
     </div>

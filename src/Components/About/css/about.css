@@ -1,7 +1,5 @@
-.section-heading {
-  width: 100%;
+.content-about {
   display: flex;
-  flex-direction: column;
-  gap: 0.4em;
-  align-items: center;
+  gap: 5em;
+  justify-content: center;
 }

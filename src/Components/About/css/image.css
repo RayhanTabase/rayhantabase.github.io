@@ -1,0 +1,6 @@
+.my-image-container {
+  border: 2px solid black;
+  height: 20em;
+  width: 20em;
+  max-width: 75%;
+}

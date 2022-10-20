@@ -56,3 +56,11 @@ button:hover {
 .container-row {
   display: flex;
 }
+
+.section-heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  align-items: center;
+}

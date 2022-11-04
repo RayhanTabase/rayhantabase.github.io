@@ -1,8 +1,9 @@
 import React from 'react';
+import './card.css'
 
 const CardOne = ({thumbnail, title, text}) => {
   return (
-    <div className='card-one'>
+    <div className='card-one card'>
       <div>
         <img className='icon-color1' src={thumbnail} alt={`${title}`} />
       </div>

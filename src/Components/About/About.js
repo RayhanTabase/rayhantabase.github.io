@@ -4,18 +4,36 @@ import './css/about_mobile.css';
 import Description from './Description';
 import Image from './Image';
 import Heading from '../Heading/Heading';
+import CardOne from '../Card/CardOne';
+import GithubIcon from '../../Assets/github.svg';
 
 const About =() => {
+  const EXPERIENCE = {
+    thumbnail: GithubIcon,
+    title: 'Experience',
+    text: '2.5 years'
+  };
+
+  const PROJECTS = {
+    thumbnail: GithubIcon,
+    title: 'Projects',
+    text: '30+ Completed Projects'
+  };
+
   return (
     <section className='about-me'>
       <Heading desc1="Get to Know" title="About Me" />
       <div className='content-about'>
         <Image />
         <div className='content-about-profile'>
-          <div>Experience</div>
-          <div>Projects</div>
+          <div className='cards-container'>
+            <CardOne thumbnail={EXPERIENCE.thumbnail} title={EXPERIENCE.title} text={EXPERIENCE.text}  />
+            <CardOne thumbnail={PROJECTS.thumbnail} title={PROJECTS.title} text={PROJECTS.text}  />
+          </div>
           <Description />
-          <button className='btn-style-2'>Let's talk</button>
+          <div className='single-btn-container'>
+            <button className='btn-style-2'>Let's talk</button>
+          </div>
         </div>
       </div>
     </section>

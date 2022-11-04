@@ -3,3 +3,14 @@
   gap: 5em;
   justify-content: center;
 }
+
+.self-description {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}

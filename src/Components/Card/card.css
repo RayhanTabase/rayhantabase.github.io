@@ -1,0 +1,17 @@
+.card {
+  border: 1px solid black;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-one {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 40% ;
+  min-width: 9rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

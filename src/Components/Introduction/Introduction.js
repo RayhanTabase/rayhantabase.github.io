@@ -9,7 +9,7 @@ import SocialMedia from './SocialMedia';
 
 const Introduction =() => {
   return (
-    <section className='container-intro margin-sides1'>
+    <section className='container-intro'>
       <SocialMedia />
       <div className='container-intro-sections'>
         <Greeting />

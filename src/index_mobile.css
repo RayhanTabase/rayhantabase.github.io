@@ -1,11 +1,11 @@
 @media only screen and (max-width: 950px) {
-  .margin-sides1 {
-    margin-top: 3.4em;
-    padding-left: 2em;
-    padding-right: 2em;
-  }
-
   section {
     min-height: 100vh;
+  }
+
+  main section {
+    margin-bottom: 5rem;
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }

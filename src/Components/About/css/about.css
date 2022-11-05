@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-.cards-container {
+.cards-container-about {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;

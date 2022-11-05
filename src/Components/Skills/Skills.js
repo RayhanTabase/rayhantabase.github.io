@@ -1,6 +1,9 @@
 import React from 'react';
 import Heading from '../Heading/Heading';
 import CardTwo from '../Card/CardTwo';
+import './skills.css';
+import './skills_mobile.css';
+
 
 const Skills =() => {
   const SKILLS = [
@@ -9,17 +12,13 @@ const Skills =() => {
       skills: [
         "HTML", 
         "JavaScript",
-        "Redux",
         "React",
         "CSS",
-        "SCSS",
         "Tailwind",
         "Bootstrap",
-        "HTML Canvas",
         "Vue",
         "Angular",
         "Apollo GraphQL Server",
-        "Scratch"
       ]
     },
 
@@ -43,7 +42,8 @@ const Skills =() => {
         "Lua",
         "C#",
         "Unity",
-        "JavaScript and HTML Canvas"
+        "HTML Canvas",
+        "Scratch"
       ]
     },
 
@@ -65,7 +65,7 @@ const Skills =() => {
   return (
     <section className='skills'>
       <Heading desc1="The Skills I Have" title="Skills" />
-      <div className=''>
+      <div className='container-cards-skills'>
       {
         SKILLS.map((skillType) => (
           <CardTwo key={skillType.category} category={skillType.category} skills={skillType.skills} />

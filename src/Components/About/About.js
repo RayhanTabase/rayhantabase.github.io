@@ -25,14 +25,14 @@ const About =() => {
       <Heading desc1="Get to Know" title="About Me" />
       <div className='content-about'>
         <Image />
-        <div className='content-about-profile'>
-          <div className='cards-container'>
+        <div className="content-about-profile">
+          <div className="cards-container-about">
             <CardOne thumbnail={EXPERIENCE.thumbnail} title={EXPERIENCE.title} text={EXPERIENCE.text}  />
             <CardOne thumbnail={PROJECTS.thumbnail} title={PROJECTS.title} text={PROJECTS.text}  />
           </div>
           <Description />
-          <div className='single-btn-container'>
-            <button className='btn-style-2'>Let's talk</button>
+          <div className="single-btn-container">
+            <button className="btn-style-2">Let's talk</button>
           </div>
         </div>
       </div>

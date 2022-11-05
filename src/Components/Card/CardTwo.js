@@ -4,16 +4,18 @@ import './card.css'
 
 const CardTwo = ({category, skills=[]}) => {
   return (
-    <div className='card-two card'>
-      <h3>{category}</h3>
-      {skills.map((skill) => (
-        <div> 
-          <div> 
-            <img className='icon-color1' src={GithubIcon} alt={`${skill}`} />
+    <div className="card-two card">
+      <h3 className="title">{category}</h3>
+      <div className="items-list">
+        {skills.map((skill) => (
+          <div className="item"> 
+            <div> 
+              <img className='icon-color1' src={GithubIcon} alt={`${skill}`} />
+            </div>
+            <p>{skill}</p>
           </div>
-          <p>{skill}</p>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }

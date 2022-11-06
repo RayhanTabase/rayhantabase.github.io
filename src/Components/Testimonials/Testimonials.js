@@ -34,15 +34,14 @@ const Testimonials =() => {
           title={TESTIMONIALS[carousel].title}
           text={TESTIMONIALS[carousel].text}
         />
-        <div>
-        {
-          Object.keys(TESTIMONIALS).map((testimony)=> (
-            <button onClick={()=> setCarousel(testimony)}>
-              {testimony}
-            </button>
-          ))
-        }
-        </div>
+      </div>
+      <div className="container-carousel-pickers">
+      {
+        Object.keys(TESTIMONIALS).map((testimony)=> (
+          <button className={`carousel-picker ${carousel === testimony && 'carousel-picker-picked'}`} onClick={()=> setCarousel(testimony)}>
+          </button>
+        ))
+      }
       </div>
     </section>
   );

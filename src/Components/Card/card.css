@@ -31,15 +31,50 @@
 .card-two .items-list {
   display: grid;
   grid-template-columns: 1fr 1fr ;
-
   gap: 2rem
 }
 
 .card-two .items-list .item {
   display: flex;
   gap: 1rem;
-  /* min-width: 50%; */
-  /* max-width: 50%; */
 }
 
+.card-three {
+  background: indigo;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
 
+.card-three .image {
+  width: 100%;
+  min-height: 10rem;
+  background: yellow;
+ 
+}
+
+/* .card-three .title {
+
+} */
+
+.card-three .text {
+  background: red;
+  min-height: 5rem;
+  height: 5rem;
+}
+
+.card-three .skills {
+  display: flex;
+}
+
+.card-three .skills .item {
+  border-right: 1px solid black;
+  padding-right: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.card-three .buttons {
+  display: flex;
+  gap: 1rem;
+}

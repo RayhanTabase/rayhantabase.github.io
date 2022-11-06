@@ -68,7 +68,11 @@ const Skills =() => {
       <div className='container-cards-skills'>
       {
         SKILLS.map((skillType) => (
-          <CardTwo key={skillType.category} category={skillType.category} skills={skillType.skills} />
+          <CardTwo
+            key={skillType.category}
+            category={skillType.category}
+            skills={skillType.skills}
+          />
         ))
       }
     </div>

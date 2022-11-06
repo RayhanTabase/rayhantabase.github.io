@@ -16,10 +16,8 @@
 .carousel-picker {
   width: 0.6rem;
   min-width:  0.6rem;
-  /* max-width: 10px; */
   height:  0.6rem;
   min-height:  0.6rem;
-  /* max-height: 2px; */
   background: gray;
   border: 1px solid black;
   border-radius: 50%;

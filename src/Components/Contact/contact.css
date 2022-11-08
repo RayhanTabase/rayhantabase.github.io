@@ -5,13 +5,11 @@
 }
 
 .contact-content div:nth-child(1) {
-  background: red;
   width: 30%;
   min-width: 30%;
 }
 
 .contact-content div:nth-child(2) {
-  background: green;
   width: 50%;
   min-width: 50%;
 }

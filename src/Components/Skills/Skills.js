@@ -43,7 +43,6 @@ const Skills =() => {
         "C#",
         "Unity",
         "HTML Canvas",
-        "Scratch"
       ]
     },
 

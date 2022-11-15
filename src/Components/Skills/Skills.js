@@ -51,7 +51,7 @@ const Skills =() => {
       skills: [
         "Agile",
         "Product Ownership",
-        "Scrum",
+        "Scrum Master",
         "Confluence",
         "Jira",
         "Pair programming",

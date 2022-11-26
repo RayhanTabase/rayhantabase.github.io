@@ -81,9 +81,12 @@
 
 .card-four {
   max-width: 40rem;
+  min-width: 9rem;
+  width: 40rem;
   min-height: 18rem;
   max-height: 18rem;
-  padding: 1rem;
+  height: 18rem;
+  padding: 2rem;
   align-items: center;
   padding-top: 2.3rem;
 }

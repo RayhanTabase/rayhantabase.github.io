@@ -7,7 +7,7 @@ const ActionBtn =() => {
       <a href={`${CV_URL}`}>
         <button className='btn-style-1'>Download CV</button>
       </a>
-      <button className='btn-style-2'>Let's talk</button>
+      <a href='#contact-me' className='btn-style-2 btn'>Let's talk</a>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import React from 'react';
 const Name =() => {
   return (
     <div className='owner-name'>
-      <h1 className='text1'>Salim Abdulai</h1>
+      <h1 className='color-secondary'>Salim Abdulai</h1>
       <div className='underline'></div>
     </div>
   );

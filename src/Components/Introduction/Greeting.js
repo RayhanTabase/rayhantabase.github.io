@@ -3,7 +3,7 @@ import React from 'react';
 const Greeting =() => {
   return (
     <div>
-      <p className='p-med text1'>Welcome to</p>
+      <p className='color-secondary'>Hello I'm</p>
     </div>
   );
 }

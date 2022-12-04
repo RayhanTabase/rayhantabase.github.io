@@ -4,7 +4,7 @@ import './contact.css';
 
 const Contact =() => {
   return (
-    <section className='contact'>
+    <section id='contact-me'>
       <Heading desc1="Get In Touch" desc2="I do receive your messages and will respond asap if the valid email is provided 🙂" title="Contact Me" />
       <div className='contact-content'>
         <div>

@@ -9,7 +9,6 @@ const SocialMedia =() => {
   const SOCIAL_MEDIA = [
     {name: 'Github', icon: GithubIcon, url: 'https://github.com/RayhanTabase'},
     {name: 'LinkedIn', icon: LinkedInIcon, url: 'https://www.linkedin.com/in/salimabdulai'},
-    {name: 'Github2', icon: GithubIcon, url: 'https://github.com/RayhanTabase'},
   ]
   return (
     <div className='social-media-container'>

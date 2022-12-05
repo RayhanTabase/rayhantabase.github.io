@@ -1,16 +1,40 @@
 .content-about {
   display: flex;
   gap: 5em;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.content-about-profile {
+  width: 100%;
 }
 
 .self-description {
   margin-bottom: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .cards-container-about {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
+}
+
+/* Smaller screens */
+@media only screen and (max-width: 950px) {
+  .content-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-about-profile {
+    width: 100%;
+  }
+
+  .single-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

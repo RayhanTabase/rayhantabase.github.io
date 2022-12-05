@@ -3,8 +3,10 @@ import './css/image.css';
 
 const Image =() => {
   return (
-    <div className='my-image-container'>
-      Image
+    <div className='section-my-image'>
+      <div className='my-image-container'>
+        <img src='https://raw.githubusercontent.com/RayhanTabase/config/main/profile.jpeg' alt='Salim' />
+      </div>
     </div>
   );
 }

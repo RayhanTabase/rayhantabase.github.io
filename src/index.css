@@ -9,27 +9,16 @@ html {
   scroll-behavior: smooth;
 }
 
-main {
-	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #4db5ff, #23d5ab); */
-	/* background: linear-gradient(-45deg, #4DB5FF, #689DF3, #8383DF, #9967C2, #A7499E, #AB2576); */
-  background: #E6F4F1;
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
-	min-height: 100vh;
+img {
+  max-width: 100%;
   max-height: 100%;
-  scroll-behavior: smooth;
+  object-fit: contain;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+main {
+  background: #E6F4F1;
+	min-height: 100vh;
+  max-height: 100%;
 }
 
 main section {
@@ -61,22 +50,6 @@ button:hover {
   cursor:pointer;
 }
 
-.btn-style-1 {
-  color: #D8A45C ;
-}
-
-.btn-style-2 {
-  background: #D8A45C;
-  color: #3B4856 ;
-  border: none;
-}
-
-button:hover, .btn:hover {
-  background: #9fadbd;
-  color: #3B4856 ;
-}
-
-
 .background-color {
   color: #4db5ff;
 }
@@ -95,6 +68,21 @@ button:hover, .btn:hover {
 }
 
 .color-tertiary {
+  color: #3B4856 ;
+}
+
+.btn-style-1 {
+  color: #D8A45C ;
+}
+
+.btn-style-2 {
+  background: #D8A45C;
+  color: #3B4856 ;
+  border: none;
+}
+
+button:hover, .btn:hover {
+  background: #9fadbd;
   color: #3B4856 ;
 }
 

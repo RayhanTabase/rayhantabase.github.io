@@ -1,6 +1,7 @@
 import React from 'react';
 import TextTypeOne from '../TextType/TextTypeOne';
 import TextTypeTwo from '../TextType/TextTypeTwo';
+import './css/heading.css';
 
 const Heading =({desc1='', desc2='', title=''}) => {
   return (

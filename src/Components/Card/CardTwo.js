@@ -1,6 +1,6 @@
 import React from 'react';
 import GithubIcon from '../../Assets/github.svg';
-import './card.css'
+import './css/card.css'
 
 const CardTwo = ({category, skills=[]}) => {
   return (

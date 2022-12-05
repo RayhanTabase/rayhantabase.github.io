@@ -1,6 +1,55 @@
+.section-my-image {
+ min-width: 45%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
 .my-image-container {
-  border: 2px solid black;
   height: 20em;
   width: 20em;
   max-width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+	background: linear-gradient(-45deg, #4DB5FF, #689DF3, #8383DF, #9967C2, #A7499E, #AB2576);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.my-image-container img {
+  height: 20em;
+  width: 20em;
+  object-fit: cover;
+  transform: rotate(8deg);
+  border-radius: 15%;
+  transition: 0.3s;
+}
+
+.my-image-container img:hover {
+  transform: rotate(0);
+}
+
+/* Smaller screens */
+@media only screen and (max-width: 950px) {
+  .section-my-image {
+    min-width: 80%;
+   }
+
+  .my-image-container {
+    max-width: 80%;
+  }
 }

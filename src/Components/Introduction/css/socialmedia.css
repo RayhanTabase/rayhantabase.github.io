@@ -1,4 +1,6 @@
 .social-media-container {
+  width: 10%;
+  max-width: 10%;
   margin-top: 2.5em;
   display: flex;
   flex-direction: column;
@@ -13,20 +15,14 @@
   width: 2px;
 }
 
-.icon-color1 {
-  filter: invert(68%) sepia(70%) saturate(336%) hue-rotate(350deg) brightness(90%) contrast(88%);
-}
-
-.icon-color1:hover {
-  filter: invert(77%) sepia(9%) saturate(530%) hue-rotate(172deg) brightness(89%) contrast(85%);
-}
-
 @media only screen and (max-width: 950px) {
   .social-media-container {
     order: 2;
     flex-direction: row;
     margin-top: 1.5rem;
     justify-content: center;
+    width: 100%;
+    max-width: 100%;
   }
 
   .social-media-container:after {

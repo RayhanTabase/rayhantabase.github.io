@@ -17,6 +17,7 @@ const Introduction =() => {
         <Position />
         <ActionBtn />
       </div>
+      <a className='scroll-down color-main' href="#contact-me">Scroll down</a>
     </section>
   );
 }

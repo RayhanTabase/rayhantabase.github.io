@@ -81,6 +81,17 @@ button:hover {
   border: none;
 }
 
+
+.icon-color1 {
+  filter: invert(68%) sepia(70%) saturate(336%) hue-rotate(350deg) brightness(90%) contrast(88%);
+}
+
+.icon-color1:hover {
+  filter: invert(77%) sepia(9%) saturate(530%) hue-rotate(172deg) brightness(89%) contrast(85%);
+}
+
+.backgroun
+
 button:hover, .btn:hover {
   background: #9fadbd;
   color: #3B4856 ;

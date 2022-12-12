@@ -18,14 +18,16 @@ img {
 main {
   background: #E6F4F1;
 	min-height: 100vh;
-  max-height: 100%;
 }
 
 main section {
-  padding-top: 5rem;
+  padding-top: 10rem;
   padding-left: 10em;
   padding-right: 10em;
-  overflow: hidden;
+}
+
+main section:nth-child(1) {
+  padding-top: 7rem;
 }
 
 h1 {
@@ -50,10 +52,6 @@ button:hover {
   cursor:pointer;
 }
 
-.background-color {
-  color: #4db5ff;
-}
-
 .color-main {
   color: #D8A45C;
 }
@@ -71,6 +69,10 @@ button:hover {
   color: #3B4856 ;
 }
 
+.color-blue {
+  color: #4db5ff;
+}
+
 .btn-style-1 {
   color: #D8A45C ;
 }
@@ -86,11 +88,9 @@ button:hover {
   filter: invert(68%) sepia(70%) saturate(336%) hue-rotate(350deg) brightness(90%) contrast(88%);
 }
 
-.icon-color1:hover {
+.icon-social-hover:hover {
   filter: invert(77%) sepia(9%) saturate(530%) hue-rotate(172deg) brightness(89%) contrast(85%);
 }
-
-.backgroun
 
 button:hover, .btn:hover {
   background: #9fadbd;

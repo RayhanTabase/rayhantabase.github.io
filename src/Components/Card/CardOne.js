@@ -7,7 +7,7 @@ const CardOne = ({thumbnail, title, text}) => {
       <div>
         <img className='icon-color1' src={thumbnail} alt={`${title}`} />
       </div>
-      <div>
+      <div className='color-secondary'>
         {title}
       </div>
       <div>

@@ -13,6 +13,8 @@
 .self-description {
   margin-bottom: 2rem;
   text-align: left;
+  word-spacing: 4px;
+  font-weight: 600;
 }
 
 .cards-container-about {

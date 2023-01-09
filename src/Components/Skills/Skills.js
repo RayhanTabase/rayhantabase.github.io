@@ -30,7 +30,7 @@ const Skills =() => {
         "Django",
         "Ruby on Rails",
         "PostgreSQL",
-        "RSPEC",
+        "RSpec",
         "Swagger",
       ]
     },
@@ -47,7 +47,7 @@ const Skills =() => {
     },
 
     {
-      category: "Methodologies and Interpersonal",
+      category: "Other Skills and Tools",
       skills: [
         "Agile",
         "Product Ownership",

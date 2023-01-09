@@ -20,10 +20,13 @@
 }
 
 .card-two {
-  background: yellow;
   padding: 1.2rem;
   max-height: 25rem;
   overflow: hidden;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .card-two .title {
@@ -43,7 +46,6 @@
 }
 
 .card-three {
-  background: indigo;
   padding: 1.2rem;
   display: flex;
   flex-direction: column;
@@ -53,22 +55,24 @@
 .card-three .image {
   width: 100%;
   min-height: 10rem;
-  background: yellow;
+  border-radius: 2rem;
+  overflow: hidden;
  
 }
 
-/* .card-three .title {
-
-} */
+.card-three .title {
+  height: 3rem;
+}
 
 .card-three .text {
-  background: red;
   min-height: 5rem;
   height: 5rem;
 }
 
 .card-three .skills {
   display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .card-three .skills .item {
@@ -80,6 +84,8 @@
 .card-three .buttons {
   display: flex;
   gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .card-four {
@@ -92,6 +98,12 @@
   padding: 2rem;
   align-items: center;
   padding-top: 2.3rem;
+}
+
+.card-four .icon {
+  background:#D8A45C ;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
 }
 
 .card-one:hover {

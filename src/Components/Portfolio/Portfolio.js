@@ -64,27 +64,7 @@ const Skills =() => {
       ],
       repo: '',
       live: ''
-    },
-    {
-      image: 'test',
-      title: 'test',
-      text: 'Lorem ipsum dolor sit amet consectetur adipiscing',
-      skills: [
-        'test', 'test', 'testtest', 'teststetststess'
-      ],
-      repo: '',
-      live: ''
-    },
-    {
-      image: 'test',
-      title: 'test',
-      text: 'test',
-      skills: [
-        'test', 'test'
-      ],
-      repo: '',
-      live: ''
-    },
+    }
   ]
 
   return (

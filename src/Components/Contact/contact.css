@@ -1,17 +1,45 @@
 .contact-content {
   display: flex;
-  background: paleturquoise;
-  gap: 5rem;
+  justify-content: center;
+  gap: 10%;
+  padding-bottom: 5rem;
 }
 
-.contact-content div:nth-child(1) {
-  width: 30%;
-  min-width: 30%;
+.contact-content .card-one {
+  width: 90%;
 }
 
-.contact-content div:nth-child(2) {
+
+.container-email-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.container-contact-form {
   width: 50%;
-  min-width: 50%;
+  display: flex;
+}
+
+.container-contact-form .width-100 {
+  width: 100%;
+}
+
+.container-contact-form input {
+  width: 100%;
+  height: 4rem;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container-contact-form textarea {
+  width: 100%;
+  height: 9rem;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 950px) {
@@ -20,14 +48,11 @@
     gap: 2rem;
   }
 
-  .contact-content div:nth-child(1) {
-    min-height: 10rem;
-    min-height: 10rem;
+  .container-email-card {
+    width: 100%;
   }
   
-  .contact-content div:nth-child(2) {
-    min-height: 10rem;
-    min-height: 10rem;
+  .container-contact-form {
+    width: 100%;
   }
-
 }

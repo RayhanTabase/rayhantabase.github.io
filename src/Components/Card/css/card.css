@@ -7,6 +7,7 @@
   border: 1px solid;
   border-color:#FCFCD4;
   font-weight: 700;
+  overflow: hidden;
 }
 
 .card-one {

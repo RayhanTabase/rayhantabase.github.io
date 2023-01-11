@@ -1,15 +1,12 @@
 import React from 'react';
 
 const FooterNavbar =() => {
-  const COPYRIGHT = '© All rights reserved S. A. 2022';
+  const COPYRIGHT = '© All rights reserved Salim A. 2023';
   
   return (
     <nav className='nav-footer'>
       <div className='copyright'>
         {COPYRIGHT}
-      </div>
-      <div>
-        Others
       </div>
     </nav>
   );

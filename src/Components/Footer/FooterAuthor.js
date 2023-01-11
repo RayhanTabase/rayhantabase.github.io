@@ -1,15 +1,15 @@
 import React from 'react';
 
 const FooterAuthor =() => {
-  const NAME = 'Salim';
+  const NAME = 'Salim Abdulai';
   const STATEMENT = 'Creating Software Solutions'
 
   
   return (
     <nav className='footer-author'>
-      <div className=''>
+      <h3 className=''>
         {NAME}
-      </div>
+      </h3>
       <div>
         {STATEMENT}
       </div>

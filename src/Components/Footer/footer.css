@@ -1,21 +1,28 @@
+.footer {
+  background: #3B4856;
+  padding: 1rem;
+  color: #E6F4F1;
+}
+
 .nav-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1rem;
 }
 
 .footer .social-media-container {
-  gap: 2.4rem;
+  /* gap: 2.4rem; */
   display: flex;
   flex-direction: row;
-  background: teal;
   justify-content: center;
-  padding: 0.5rem;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 .footer .social-media-container a {
   padding: 0.6rem;
-  border: 2px solid black;
+  border: 2px solid #E6F4F1;
   border-radius: 50%;
   width: 2.4rem;
   height: 2.4rem;

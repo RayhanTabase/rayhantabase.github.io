@@ -6,11 +6,11 @@ import FooterAuthor from './FooterAuthor';
 
 const Footer =() => {
   return (
-    <div className='footer'>
+    <footer className='footer'>
       <FooterAuthor />
       <SocialMedia />
       <FooterNavbar />
-    </div>
+    </footer>
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const FooterAuthor =() => {
   const NAME = 'Salim Abdulai';
-  const STATEMENT = 'Creating Software Solutions'
+  const STATEMENT = 'Creating Customer Centric Software Solutions'
 
   
   return (

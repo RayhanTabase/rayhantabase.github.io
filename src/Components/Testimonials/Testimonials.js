@@ -17,7 +17,7 @@ const Testimonials =() => {
   const [carousel, setCarousel] = useState('one');
   
   return (
-    <section className='skills'>
+    <section className='testimonials' id='testimonials'>
       <Heading desc1="Feedback From Peers" title="Testimonials" />
       <div className='container-cards-testimonials'>
         <CardFour 

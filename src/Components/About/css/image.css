@@ -1,5 +1,6 @@
 .section-my-image {
  min-width: 45%;
+ max-width: 100%;
  display: flex;
  justify-content: flex-start;
  align-items: center;

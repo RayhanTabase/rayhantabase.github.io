@@ -11,8 +11,7 @@
 }
 
 .card-one {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem;
   width: 45%;
   min-width: 45%;
   justify-content: center;
@@ -21,13 +20,7 @@
 }
 
 .card-two {
-  padding: 1.2rem;
-  max-height: 25rem;
-  overflow: hidden;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 3rem;
 }
 
 .card-two .title {
@@ -43,7 +36,16 @@
 
 .card-two .items-list .item {
   display: flex;
-  gap: 1rem;
+  gap: 5%;
+  width: 100%;
+}
+
+.card-two .items-list .item .container-icon {
+  width: 20%;
+}
+
+.card-two .items-list .item .container-skill-text{
+  width: 70%;
 }
 
 .card-three {
@@ -51,6 +53,8 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  width: 20rem;
+  min-width: 30%;
 }
 
 .card-three .image {
@@ -111,3 +115,39 @@
   background: none;
   border-color:#D8A45C;
 }
+
+@media only screen and (max-width: 950px) {
+  .card-two {
+    max-height: none;
+    padding: 2rem;
+  }
+
+  .card-four {
+    min-height: none;
+    max-height: none;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 285px) {
+  .card {
+    padding: 2rem;
+    font-size: 0.8em;
+  }
+
+  .card h2, .card h3 {
+    padding: 2rem;
+    font-size: 1.2em;
+  }
+
+  .card-two .title {
+    margin-bottom: 0.5rem;
+  }
+
+  .card-two .items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+  }
+}
+

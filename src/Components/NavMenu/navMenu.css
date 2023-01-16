@@ -1,0 +1,18 @@
+.container-navMenu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 3000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.container-navMenu .navMenu {
+  width: 45rem;
+  background: orange;
+  border-radius: 5rem;
+  height: 4rem;
+
+}

@@ -62,7 +62,7 @@ const Skills =() => {
   ]
 
   return (
-    <section className='skills'>
+    <section className='skills' id='skills'>
       <Heading desc1="The Skills I Have" title="Skills" />
       <div className='container-cards-skills'>
       {

@@ -5,8 +5,3 @@
   align-items: center;
   gap: 2rem;
 }
-
-.container-cards-projects .card {
-  width: 30%;
-  min-width: 20rem;
-}

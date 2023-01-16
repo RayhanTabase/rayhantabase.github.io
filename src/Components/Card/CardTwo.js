@@ -9,10 +9,10 @@ const CardTwo = ({category, skills=[]}) => {
       <div className="items-list">
         {skills.map((skill) => (
           <div className="item"> 
-            <div> 
+            <div className='container-icon'> 
               <img className='icon-color1' src={GithubIcon} alt={`${skill}`} />
             </div>
-            <p>{skill}</p>
+            <p className='container-skill-text' >{skill}</p>
           </div>
         ))}
       </div>

@@ -21,13 +21,13 @@ const Contact =() => {
         <div className='container-contact-form'>
           <form action="https://formspree.io/f/xknkayjp" method="post" className='width-100'>
               <div className='width-100'>
-                  <input type="text" maxlength="30" placeholder="Full name" name="fullname" required />
+                  <input type="text" maxlength="30" tabindex="0" placeholder="Full name" name="fullname" required />
               </div>
               <div className='width-100'>
-                  <input type="email" placeholder="Email" name="email" required />
+                  <input type="email" tabindex="0" placeholder="Email" name="email" required />
               </div>
               <div className='width-100'>
-                  <textarea name="message" maxlength="500" placeholder="Message" required></textarea>
+                  <textarea name="message" tabindex="0" maxlength="500" placeholder="Message" required></textarea>
               </div>
               <div className="button-container">
                   <button className="btn-style-2" type="submit">Send Message</button>

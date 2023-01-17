@@ -1,15 +1,27 @@
 import React from 'react';
 import './navMenu.css';
+import NavItem from './NavItem';
+import LinkedInIcon from '../../Assets/linkedin.svg'
+
 
 const NavMenu =() => {
+  
+  const NAV_SECTION = [
+    {icon: LinkedInIcon, section: 'introduction'},
+    {icon: LinkedInIcon, section: 'about-me'},
+    {icon: LinkedInIcon, section: 'skills'},
+    {icon: LinkedInIcon, section: 'portfolio'},
+    {icon: LinkedInIcon, section: 'contact-me'},
+  ]
+
   return (
     <div className='container-navMenu'>
-      <nav className='navMenu' id='nav-menu'>
-        <a className='nav-item' href="#introduction">Intro</a>
-        <a className='nav-item' href="#about-me">About</a>
-        <a className='nav-item' href="#skills">Skills</a>
-        <a className='nav-item' href="#portfolio">Pf</a>
-        <a className='nav-item' href="#contact-me">Contact</a>
+      <nav className='navMenu transparent-effect' id='nav-menu'>
+        {
+          NAV_SECTION.map((item) => (
+            <NavItem key={item.section} icon={item.icon} section={item.section}  />
+          ))
+        }
       </nav>
     </div>
   );

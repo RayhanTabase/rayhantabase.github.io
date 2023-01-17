@@ -37,6 +37,16 @@
   border-radius: 0.6rem;
   padding: 1rem;
   margin-bottom: 1rem;
+  border: 2px solid yellow;
+}
+
+.container-contact-form textarea:active,
+.container-contact-form textarea:focus,
+.container-contact-form input:active,
+.container-contact-form input:focus 
+{
+  outline: yellow;
+
 }
 
 .container-contact-form textarea {
@@ -45,6 +55,7 @@
   border-radius: 0.6rem;
   padding: 1rem;
   margin-bottom: 1rem;
+  border: 2px solid yellow;
 }
 
 @media only screen and (max-width: 950px) {

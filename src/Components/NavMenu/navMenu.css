@@ -9,10 +9,33 @@
   padding: 1.5rem;
 }
 
+.transparent-effect {
+  background-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+}
+
 .container-navMenu .navMenu {
-  width: 45rem;
-  background: orange;
+  position: relative;
+  width: fit-content;
   border-radius: 5rem;
   height: 4rem;
+  display: flex;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  padding: 2rem;
+}
 
+.container-navMenu .navMenu .nav-item {
+  padding: 0.55rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-navMenu .navMenu .nav-item:hover {
+  background-color: burlywood;
+  border-radius: 5rem;
 }

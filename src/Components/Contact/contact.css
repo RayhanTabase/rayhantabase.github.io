@@ -37,7 +37,8 @@
   border-radius: 0.6rem;
   padding: 1rem;
   margin-bottom: 1rem;
-  border: 2px solid yellow;
+  border: 2px solid #D8A45C;
+
 }
 
 .container-contact-form textarea:active,
@@ -45,7 +46,7 @@
 .container-contact-form input:active,
 .container-contact-form input:focus 
 {
-  outline: yellow;
+  outline: none;
 
 }
 
@@ -55,7 +56,8 @@
   border-radius: 0.6rem;
   padding: 1rem;
   margin-bottom: 1rem;
-  border: 2px solid yellow;
+  border: 2px solid #D8A45C;
+  resize: none;
 }
 
 @media only screen and (max-width: 950px) {

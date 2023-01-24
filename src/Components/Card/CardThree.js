@@ -7,13 +7,13 @@ const CardThree = ({image, title, text, skills, repo="", live=""}) => {
       <div className='image'>
         <img className='' src={image} alt={`${title}`} />
       </div>
-      <h3 className='title'>
+      <h3 className='title color-secondary'>
         {title}
       </h3>
-      <p className='text'>
+      <p className='text color-secondary'>
         {text}
       </p>
-      <div className='skills'>
+      <div className='skills color-secondary'>
         {skills.map((skill) => (
           <div className="item"> 
             <p>{skill}</p>

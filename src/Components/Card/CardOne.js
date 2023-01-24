@@ -7,15 +7,15 @@ const CardOne = ({thumbnail, title, text, action=null}) => {
       <div>
         <img className='icon-color1' src={thumbnail} alt={`${title}`} />
       </div>
-      <div className='color-secondary'>
+      <div className='color-main-2'>
         {title}
       </div>
-      <div>
+      <div className='color-tertiary'>
         {text}
       </div>
       {
         action &&
-        <a href={action.link}>{action.text}</a>
+        <a className='color-main' href={action.link}>{action.text}</a>
       }
     </div>
   );

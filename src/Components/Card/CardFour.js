@@ -7,10 +7,10 @@ const CardFour = ({icon, linkedInLink, title, text}) => {
       <a href={linkedInLink} className='container-icon'>
         <img className='icon' src={icon} alt={`${title}`} />
       </a>
-      <h3 className='title'>
+      <h3 className='title color-main-2'>
         {title}
       </h3>
-      <p className='text'>
+      <p className='text color-tertiary'>
         {text}
       </p>
     </div>

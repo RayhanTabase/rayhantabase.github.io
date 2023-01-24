@@ -13,7 +13,6 @@
 }
 
 .owner-name .underline {
-  content: '';
   background-image: radial-gradient(#3B4856 50%, rgba(0,0,0,0) 50%);
   background-repeat: space;
   background-size: 0.3rem 0.3rem;

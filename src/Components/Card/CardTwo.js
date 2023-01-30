@@ -1,5 +1,6 @@
 import React from 'react';
-import GithubIcon from '../../Assets/github.svg';
+import { BsFillPatchCheckFill } from 'react-icons/bs';
+
 import './css/card.css'
 
 const CardTwo = ({category, skills=[]}) => {
@@ -9,8 +10,8 @@ const CardTwo = ({category, skills=[]}) => {
       <div className="items-list">
         {skills.map((skill) => (
           <div className="item"> 
-            <div className='container-icon'> 
-              <img className='icon-color1' src={GithubIcon} alt={`${skill}`} />
+            <div className='container-icon card-thumbnail'> 
+              <BsFillPatchCheckFill />
             </div>
             <p className='container-skill-text color-secondary' >{skill}</p>
           </div>

@@ -14,9 +14,22 @@
   padding: 2rem;
   width: 45%;
   min-width: 45%;
-  justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.card-one .card-link-redirect:hover {
+  color: #4db5ff ;
+}
+
+.card-one:hover {
+  border-color:#D8A45C;
+}
+
+.card-one .card-thumbnail,
+.card-two .card-thumbnail {
+  color: #9E702A;
+  font-size: larger;
 }
 
 .card-two {
@@ -109,10 +122,6 @@
   background:#D8A45C ;
   padding: 0.5rem;
   border-radius: 0.4rem;
-}
-
-.card-one:hover {
-  border-color:#D8A45C;
 }
 
 @media only screen and (max-width: 950px) {

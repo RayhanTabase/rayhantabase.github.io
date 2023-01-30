@@ -4,17 +4,20 @@ import Description from './Description';
 import Image from './Image';
 import Heading from '../Heading/Heading';
 import CardOne from '../Card/CardOne';
-import GithubIcon from '../../Assets/github.svg';
+import { MdWork } from 'react-icons/md';
+import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
+
+
 
 const About =() => {
   const EXPERIENCE = {
-    thumbnail: GithubIcon,
+    thumbnail: <MdWork />,
     title: 'Experience',
     text: '2.5 years'
   };
 
   const PROJECTS = {
-    thumbnail: GithubIcon,
+    thumbnail: <AiOutlineFundProjectionScreen />,
     title: 'Projects',
     text: '30+ Completed Projects'
   };

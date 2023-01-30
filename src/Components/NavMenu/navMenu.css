@@ -3,10 +3,7 @@
   bottom: 0;
   width: 100%;
   z-index: 3000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem;
+  height: 6rem;
 }
 
 .transparent-effect {
@@ -16,7 +13,7 @@
 }
 
 .container-navMenu .navMenu {
-  position: relative;
+  position: absolute;
   width: 20rem;
   border-radius: 5rem;
   height: 4rem;
@@ -25,6 +22,15 @@
   justify-items: center;
   align-items: center;
   padding: 2rem;
+  left: 50%;
+  transform: translateX(calc(-50%));
+  transition: all 1s ease;
+  overflow: hidden;
+}
+
+.container-navMenu .navMenu-close {
+  left: 90%;
+  width: 1rem;
 }
 
 .container-navMenu .navMenu .nav-item {
@@ -32,6 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 1s ease;
 }
 
 .container-navMenu .navMenu .nav-item:hover {
@@ -39,19 +46,25 @@
   border-radius: 5rem;
 }
 
-/* .container-navMenu .navMenu-close {
-  animation: shrink 4s ease;
+.container-navMenu .navMenu-close .nav-item-closed {
+  animation: close 1s linear 1 backwards;
+  display: none;
 }
 
-@keyframes shrink {
+@keyframes close {
   0% {
-    width: 20rem;
+    display: flex;
+    opacity: 1;
   }
-	100% {
-		width: 4rem;
-	}
+  100% {
+    opacity: 0;
+    display: none;
+  }
 }
 
-.container-navMenu .navMenu-close .nav-item {
-  opacity: 0;
-} */
+.container-navMenu .navMenu .hide-menu {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 1.3em;
+}

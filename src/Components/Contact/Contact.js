@@ -2,7 +2,7 @@ import React from 'react';
 import Heading from '../Heading/Heading';
 import './contact.css';
 import CardOne from '../Card/CardOne';
-import githubIcon from '../../Assets/github.svg';
+import { MdEmail } from 'react-icons/md';
 
 
 const Contact =() => {
@@ -12,7 +12,7 @@ const Contact =() => {
       <div className='contact-content'>
         <div className='container-email-card'>
           <CardOne 
-            thumbnail={githubIcon}
+            thumbnail={<MdEmail />}
             text={'salimabdulai2@yahoo.com'}
             title={'Email'}
             action={{text:'Send a message', link:'mailto:salimabdulai2@yahoo.com'}}

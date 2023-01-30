@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
 import './navMenu.css';
 import NavItem from './NavItem';
-import LinkedInIcon from '../../Assets/linkedin.svg'
+import { AiFillHome, AiFillMessage, AiFillCaretLeft, AiFillCaretRight } from 'react-icons/ai';
+import { CgProfile } from 'react-icons/cg';
+import { BiLibrary } from 'react-icons/bi';
+import { BsTools } from 'react-icons/bs';
 
 
 const NavMenu =() => {
   const [opened, setOpened] = useState(true);
   
   const NAV_SECTION = [
-    {icon: LinkedInIcon, section: 'introduction'},
-    {icon: LinkedInIcon, section: 'about-me'},
-    {icon: LinkedInIcon, section: 'skills'},
-    {icon: LinkedInIcon, section: 'portfolio'},
-    {icon: LinkedInIcon, section: 'contact-me'},
+    {icon: <AiFillHome />, section: 'introduction'},
+    {icon: <CgProfile />, section: 'about-me'},
+    {icon: <BsTools />, section: 'skills'},
+    {icon: <BiLibrary/>, section: 'portfolio'},
+    {icon: <AiFillMessage />, section: 'contact-me'},
   ]
 
   const changeNavOpen = () => {
@@ -24,10 +27,12 @@ const NavMenu =() => {
       <nav className={`${!opened && "navMenu-close" } navMenu transparent-effect`} id='nav-menu'>
         {
           NAV_SECTION.map((item) => (
-            <NavItem key={item.section} icon={item.icon} section={item.section}  />
+            <NavItem key={item.section} icon={item.icon} section={item.section} closed={opened}  />
           ))
         }
-        {/* <div onClick={changeNavOpen}>C</div> */}
+        <button className='hide-menu' onClick={changeNavOpen}>
+          {opened ? <AiFillCaretRight /> : <AiFillCaretLeft /> }
+        </button>
       </nav>
     </div>
   );

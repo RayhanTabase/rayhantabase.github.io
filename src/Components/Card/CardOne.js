@@ -4,18 +4,18 @@ import './css/card.css'
 const CardOne = ({thumbnail, title, text, action=null}) => {
   return (
     <div className='card-one card'>
-      <div>
-        <img className='icon-color1' src={thumbnail} alt={`${title}`} />
+      <div className='card-thumbnail'>
+        {thumbnail}
       </div>
-      <div className='color-main-2'>
+      <div className='card-title color-main-2'>
         {title}
       </div>
-      <div className='color-tertiary'>
+      <div className='card-text color-tertiary'>
         {text}
       </div>
       {
         action &&
-        <a className='color-main' href={action.link}>{action.text}</a>
+        <a className='card-link-redirect color-main' href={action.link}>{action.text}</a>
       }
     </div>
   );

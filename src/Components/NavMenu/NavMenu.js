@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './navMenu.css';
 import NavItem from './NavItem';
-import { AiFillHome, AiFillMessage, AiFillCaretLeft, AiFillCaretRight } from 'react-icons/ai';
+import { AiFillHome, AiFillMessage } from 'react-icons/ai';
 import { CgProfile } from 'react-icons/cg';
 import { BiLibrary } from 'react-icons/bi';
-import { BsTools } from 'react-icons/bs';
+import { BsTools, BsChevronDoubleRight, BsChevronDoubleLeft } from 'react-icons/bs';
 
 
 const NavMenu =() => {
@@ -31,7 +31,7 @@ const NavMenu =() => {
           ))
         }
         <button className='hide-menu' onClick={changeNavOpen}>
-          {opened ? <AiFillCaretRight /> : <AiFillCaretLeft /> }
+          {opened ? <BsChevronDoubleRight /> : <BsChevronDoubleLeft /> }
         </button>
       </nav>
     </div>

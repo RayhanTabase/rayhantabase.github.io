@@ -1,0 +1,63 @@
+.container-intro {
+  width: 100%;
+  height: 20em;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.owner-name {
+  z-index: 2;
+  margin-top: 1rem;
+}
+
+.owner-name .underline {
+  background-image: radial-gradient(#3B4856 50%, rgba(0,0,0,0) 50%);
+  background-repeat: space;
+  background-size: 0.3rem 0.3rem;
+  width: 100%;
+  position: relative;
+  height: 1rem;
+  bottom: 0.8rem;
+  left: 0.8rem;
+  z-index: -1;
+}
+
+.container-intro-sections {
+  width: 65%;
+  height: 14em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-intro-sections .buttonsContainer {
+  margin-top: 2.4rem;
+}
+
+.scroll-down {
+  margin-top: 5rem;
+  height: 10%;
+  display: flex;
+  transform: rotate(90deg);
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 950px) {
+  .container-intro {
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .container-intro-sections {
+    width: 100%;
+  }
+
+  .scroll-down {
+    display: none;
+  }
+}
+

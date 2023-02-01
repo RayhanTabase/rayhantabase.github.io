@@ -1,0 +1,35 @@
+.content-about {
+  display: flex;
+  gap: 5em;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  word-spacing: 2px;
+  line-height: 1.7rem;
+}
+
+.content-about-profile {
+  width: 100%;
+}
+
+.self-description {
+  margin-bottom: 2rem;
+  text-align: left;
+  word-spacing: 4px;
+  font-weight: 600;
+}
+
+.cards-container-about {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+/* Smaller screens */
+@media only screen and (max-width: 950px) {
+  .content-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

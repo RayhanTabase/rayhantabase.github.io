@@ -1,0 +1,67 @@
+.container-navMenu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 3000;
+  height: 6rem;
+}
+
+.transparent-effect {
+  background-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+}
+
+.container-navMenu .navMenu {
+  position: absolute;
+  width: 20rem;
+  border-radius: 5rem;
+  height: 4rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem;
+  left: 50%;
+  transform: translateX(calc(-50%));
+  overflow: hidden;
+  justify-content: flex-end;
+  transition: all 1s ease;
+}
+
+.container-navMenu .navMenu-close {
+  left: 90%;
+  width: 1rem;
+  justify-content: center;
+}
+
+.container-navMenu .navMenu .nav-item {
+  padding: 0.55rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+.container-navMenu .navMenu .nav-item:hover {
+  background-color:#78818d;
+  border-radius: 5rem;
+}
+
+.container-navMenu .navMenu-close .nav-item-closed {
+  display: none;
+}
+
+.container-navMenu .navMenu .hide-menu {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #78818d;
+}
+
+.container-navMenu .navMenu .hide-menu:hover {
+  background: none;
+}

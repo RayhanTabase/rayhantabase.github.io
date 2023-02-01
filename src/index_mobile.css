@@ -1,0 +1,10 @@
+@media only screen and (max-width: 950px) {
+  section {
+    min-height: 100vh;
+  }
+
+  main section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

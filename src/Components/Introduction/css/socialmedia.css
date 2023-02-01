@@ -1,0 +1,34 @@
+.social-media-container {
+  width: 10%;
+  max-width: 10%;
+  margin-top: 2.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.social-media-container:after {
+  background: #D8A45C;
+  content: "";
+  height: 2rem;
+  width: 2px;
+}
+
+@media only screen and (max-width: 950px) {
+  .social-media-container {
+    order: 2;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .social-media-container:after {
+    background: none;
+    content:none;
+    height: 0;
+    width: 0;
+  }
+}

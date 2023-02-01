@@ -5,17 +5,14 @@
 
 ## Built With
 
-- HTML,CSS, JavaScript
+- React,CSS
 
-## Live Version
-[Portfolio](https://rayhantabase.github.io)
 
 ## Authors
 
 👤 **Salim Abdulai**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
@@ -28,11 +25,6 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

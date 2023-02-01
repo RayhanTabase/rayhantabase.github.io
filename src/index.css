@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Gluten", cursive, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+main {
+  /* background: #E6F4F1; */
+  background-image: radial-gradient(#E6F4F1 65%, rgba(0, 0, 0, 0) 65%);
+  background-repeat: space;
+  background-size: 0.5rem 0.5rem;
+	min-height: 100vh;
+}
+
+main section {
+  padding-top: 10rem;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+main section:nth-child(1) {
+  padding-top: 7rem;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+button, .btn {
+  background: none;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 0.7em;
+  border: 1px solid;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor:pointer;
+}
+
+.color-main {
+  color: #D8A45C;
+}
+
+.color-main-2 {
+  color: #9E702A ;
+}
+
+.color-secondary {
+  color: #3B4856 ;
+}
+
+.color-tertiary {
+  color: #78818d ;
+}
+
+.color-blue {
+  color: #4db5ff;
+}
+
+.btn-style-1 {
+  color: #D8A45C ;
+}
+
+.btn-style-2 {
+  background: #D8A45C;
+  color: #3B4856 ;
+  border: none;
+}
+
+
+.icon-color1 {
+  filter: invert(68%) sepia(70%) saturate(336%) hue-rotate(350deg) brightness(90%) contrast(88%);
+}
+
+.icon-social-hover:hover {
+  filter: invert(77%) sepia(9%) saturate(530%) hue-rotate(172deg) brightness(89%) contrast(85%);
+}
+
+button:hover, .btn:hover {
+  background: #9fadbd;
+  color: #3B4856 ;
+}
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.container-row {
+  display: flex;
+}
+
+.section-heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  align-items: center;
+}
+
+.buttonsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.4em;
+}

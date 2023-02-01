@@ -5,7 +5,7 @@ const CardThree = ({image, title, text, skills, repo="", live=""}) => {
   return (
     <div className='card-three card'>
       <div className='image'>
-        <img className='' src={image} alt={`${title}`} />
+        <img src={image} alt={`${title}`} />
       </div>
       <h3 className='title color-secondary'>
         {title}
@@ -21,12 +21,12 @@ const CardThree = ({image, title, text, skills, repo="", live=""}) => {
         ))}
       </div>
       <div className='buttons'>
-        <button className='btn-style-1'>
+        <a className='btn-style-1'>
           Github
-        </button>
-        <button className='btn-style-2'>
+        </a>
+        <a className='btn-style-2'>
           View Site
-        </button>
+        </a>
       </div>
     </div>
   );

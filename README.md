@@ -1,7 +1,31 @@
-# react_portfolio
-Portfolio website listing my skills and projects as a software developer
+# Personal Portfolio Page
 
-#Configurable from github
-- Profile image
-- CV
+> My personal portfolio page displaying a few projects and the programming technologies that I am very confident with
 
+
+## Built With
+
+- React,CSS
+
+
+## Authors
+
+👤 **Salim Abdulai**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

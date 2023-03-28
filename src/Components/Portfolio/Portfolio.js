@@ -18,7 +18,7 @@ const Skills =() => {
     {
       image: 'https://raw.githubusercontent.com/RayhanTabase/bookstore/dev/screenshot/pc.jpeg',
       title: 'Bookstore',
-      text: 'Book store is an app that displays a list of books, allows users to add a new book to the list as well as remove a selected book',
+      text: 'A Book store is an app that displays a list of books, allows users to add a new book to the list as well as remove a selected book',
       skills: [
         'React', 'CSS'
       ],
@@ -28,7 +28,7 @@ const Skills =() => {
     {
       image: 'https://raw.githubusercontent.com/RayhanTabase/Python-Bootcamp-Mock-Page/main/static/images/readme/pc.jpeg',
       title: 'Python Bootcamp',
-      text: 'A webpage providing details on an upcomming python bootcamp',
+      text: 'A webpage providing details on an upcoming python boot camp',
       skills: [
         'HTML', 'SCSS', 'JavaScript'
       ],
@@ -38,7 +38,7 @@ const Skills =() => {
     {
       image: 'https://raw.githubusercontent.com/RayhanTabase/budget_app/dev/screenshots/s1.jpeg',
       title: 'Budget App',
-      text: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+      text: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you spent and on what.',
       skills: [
         'Ruby on Rails','PostgreSQL','Tailwind css'
       ],
@@ -48,7 +48,7 @@ const Skills =() => {
     {
       image: 'https://raw.githubusercontent.com/RayhanTabase/salim_abdulai_storefront/dev/snapshots/pl.jpeg',
       title: 'Storefront',
-      text: 'A minimalist storefront . ecommerce website where users can browse produts by categories, view information about a product and add products to cart for checkout',
+      text: 'A minimalist storefront. e-commerce website where users can browse products by categories, view information about a product and add products to a cart for checkout',
       skills: [
         'React','Redux','GraphQL'
       ],

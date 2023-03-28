@@ -10,7 +10,7 @@ const CardFour = ({icon, linkedInLink, title, text}) => {
       <h3 className='title color-main-2'>
         {title}
       </h3>
-      <p className='text color-tertiary'>
+      <p className='text color-secondary'>
         {text}
       </p>
     </div>

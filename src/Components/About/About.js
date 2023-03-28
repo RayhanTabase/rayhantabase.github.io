@@ -34,7 +34,7 @@ const About =() => {
           </div>
           <Description />
           <div className="single-btn-container">
-            <button className="btn-style-2">Let's talk</button>
+            <a href='#contact-me' className='btn-style-2 btn'>Let's talk</a>
           </div>
         </div>
       </div>

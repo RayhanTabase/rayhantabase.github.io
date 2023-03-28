@@ -9,12 +9,6 @@
   width: 90%;
 }
 
-.contact-content .card-one:hover {
-  background: #FCFCD4;
-  border-color:#FCFCD4
-}
-
-
 .container-email-card {
   display: flex;
   justify-content: center;

@@ -1,13 +1,14 @@
 .card {
-  background:#FCFCD4;
+  background:#E6F4F1;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   border: 1px solid;
-  border-color:#FCFCD4;
+  border-color:#E6F4F1;
   font-weight: 700;
   overflow: hidden;
+  border-color:#D8A45C;
 }
 
 .card-one {
@@ -20,10 +21,6 @@
 
 .card-one .card-link-redirect:hover {
   color: #4db5ff ;
-}
-
-.card-one:hover {
-  border-color:#D8A45C;
 }
 
 .card-one .card-thumbnail,
@@ -71,7 +68,7 @@
 }
 
 .card-three:hover {
-  background-color: #E6F4F1;
+  /* background-color: #E6F4F1; */
 }
 
 .card-three .image {

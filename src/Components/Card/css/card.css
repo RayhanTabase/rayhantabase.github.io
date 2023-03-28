@@ -67,10 +67,6 @@
   min-width: 30%;
 }
 
-.card-three:hover {
-  /* background-color: #E6F4F1; */
-}
-
 .card-three .image {
   width: 100%;
   min-height: 10rem;

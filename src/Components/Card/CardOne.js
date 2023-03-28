@@ -15,7 +15,7 @@ const CardOne = ({thumbnail, title, text, action=null}) => {
       </div>
       {
         action &&
-        <a className='card-link-redirect color-main' href={action.link}>{action.text}</a>
+        <a className='card-link-redirect color-secondary' href={action.link}>{action.text}</a>
       }
     </div>
   );

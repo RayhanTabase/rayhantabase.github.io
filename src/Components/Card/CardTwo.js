@@ -6,7 +6,7 @@ import './css/card.css'
 const CardTwo = ({category, skills=[]}) => {
   return (
     <div className="card-two card">
-      <h3 className="title color-main-2">{category}</h3>
+      <h3 className="title color-secondary">{category}</h3>
       <div className="items-list">
         {skills.map((skill) => (
           <div className="item"> 

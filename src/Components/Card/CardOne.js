@@ -7,7 +7,7 @@ const CardOne = ({thumbnail, title, text, action=null}) => {
       <div className='card-thumbnail'>
         {thumbnail}
       </div>
-      <div className='card-title color-main-2'>
+      <div className='card-title color-secondary'>
         {title}
       </div>
       <div className='card-text color-secondary'>

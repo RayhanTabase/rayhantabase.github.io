@@ -81,7 +81,7 @@ button:hover {
 
 .btn-style-2 {
   background: #D8A45C;
-  color: #3B4856 ;
+  color: #fff ;
   border: none;
 }
 
@@ -96,7 +96,7 @@ button:hover {
 
 button:hover, .btn:hover {
   background: #9fadbd;
-  color: #3B4856 ;
+  color: #fff ;
 }
 
 .container {

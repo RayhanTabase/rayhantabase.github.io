@@ -17,7 +17,6 @@ img {
 }
 
 main {
-  /* background: #E6F4F1; */
   background-image: radial-gradient(#E6F4F1 65%, rgba(0, 0, 0, 0) 65%);
   background-repeat: space;
   background-size: 0.5rem 0.5rem;

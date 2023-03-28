@@ -8,7 +8,7 @@ import { MdEmail } from 'react-icons/md';
 const Contact =() => {
   return (
     <section id='contact-me'>
-      <Heading desc1="Get In Touch" desc2="I do receive your messages and will respond asap if a valid email is provided 🙂" title="Contact Me" />
+      <Heading desc1="Get In Touch" desc2="I do receive your messages and will respond ASAP if a valid email is provided 🙂" title="Contact Me" />
       <div className='contact-content'>
         <div className='container-email-card'>
           <CardOne 

@@ -40,10 +40,13 @@
   justify-content: center;
   align-items: center;
   transition: all 1s ease;
+  color:#9E702A;
 }
 
 .container-navMenu .navMenu .nav-item:hover {
-  background-color:#78818d;
+  background-color:#bcbcbc;
+  color:#9E702A;
+
   border-radius: 5rem;
 }
 

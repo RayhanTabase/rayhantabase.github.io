@@ -24,9 +24,12 @@ const CardThree = ({image, title, text, skills, repo="", live=""}) => {
         <button onClick={()=> window.open(`${repo}`, "_blank")} src className='btn-style-1'>
             Github
         </button>
-        <button onClick={()=> window.open(`${live}`, "_blank")} className='btn-style-2'>
-            View Site
-        </button>
+        {
+          live &&
+          <button onClick={()=> window.open(`${live}`, "_blank")} className='btn-style-2'>
+              View Site
+          </button>
+        }
       </div>
     </div>
   );

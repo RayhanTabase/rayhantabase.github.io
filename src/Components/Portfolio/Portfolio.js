@@ -45,26 +45,26 @@ const Skills =() => {
       repo: 'https://github.com/devMunyi/DocBooker-frontend',
       live: 'https://book-doc-appointment.netlify.app/'
     },
-    {
-      image: 'https://raw.githubusercontent.com/RayhanTabase/salim_abdulai_storefront/dev/snapshots/pl.jpeg',
-      title: 'Storefront',
-      text: 'A minimalist storefront. e-commerce website where users can browse products by categories, view information about a product and add products to a cart for checkout',
-      skills: [
-        'React','Redux','GraphQL'
-      ],
-      repo: 'https://github.com/RayhanTabase/salim_abdulai_storefront',
-      live: ''
-    },
-    {
-      image: 'https://raw.githubusercontent.com/RayhanTabase/Polling-app/master/sccreenshot/polImage9.jpeg',
-      title: 'Election App',
-      text: 'A CRUD app where users can create elections with different categories for other users to vote in.',
-      skills: [
-        'Django','Python','CSS','React'
-      ],
-      repo: 'https://github.com/RayhanTabase/Polling-app',
-      live: ''
-    }
+    // {
+    //   image: 'https://raw.githubusercontent.com/RayhanTabase/salim_abdulai_storefront/dev/snapshots/pl.jpeg',
+    //   title: 'Storefront',
+    //   text: 'A minimalist storefront. e-commerce website where users can browse products by categories, view information about a product and add products to a cart for checkout',
+    //   skills: [
+    //     'React','Redux','GraphQL'
+    //   ],
+    //   repo: 'https://github.com/RayhanTabase/salim_abdulai_storefront',
+    //   live: ''
+    // },
+    // {
+    //   image: 'https://raw.githubusercontent.com/RayhanTabase/Polling-app/master/sccreenshot/polImage9.jpeg',
+    //   title: 'Election App',
+    //   text: 'A CRUD app where users can create elections with different categories for other users to vote in.',
+    //   skills: [
+    //     'Django','Python','CSS','React'
+    //   ],
+    //   repo: 'https://github.com/RayhanTabase/Polling-app',
+    //   live: ''
+    // }
   ]
 
   return (
